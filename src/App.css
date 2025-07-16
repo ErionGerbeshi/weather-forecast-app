@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: auto;
+}
+
+form input {
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+form button {
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.weather-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(8px);
+  text-align: center;
+}
+
+.hourly {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.hour {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.forecast-day {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    height: auto;
+    width: 100%;
+    position: relative;
+  }
+
+  .main-content {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,32 @@
+.weather-search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.search-input {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 30px 0 0 30px;
+  border: none;
+  outline: none;
+  width: 300px;
+  background-color: white;
+  color: black;
+}
+
+.search-button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 0 30px 30px 0;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.2s;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
