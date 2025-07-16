@@ -8,7 +8,7 @@ This app allows users to search for any city worldwide and instantly view curren
 ## 🎥 Demo Video
 
 ▶️ **Watch the full walkthrough on Loom**:  
-[https://www.loom.com/share/5261a64c5ab14203a2064d967e853504?sid=a025619f-7708-442b-8167-f1c97f73cec9](https://www.loom.com/share/5261a64c5ab14203a2064d967e853504?sid=a025619f-7708-442b-8167-f1c97f73cec9)
+🎥 You can also [watch the full walkthrough of this project on Loom](https://www.loom.com/share/5261a64c5ab14203a2064d967e853504?sid=a025619f-7708-442b-8167-f1c97f73cec9) to see the app in action and understand the features in detail.
 
 ---
 
